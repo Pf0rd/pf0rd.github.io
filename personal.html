@@ -4,45 +4,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>What i believe in</title>
+  <title>What I Believe In</title>
   <style>
-    body {
+      /* General Styles */
+      body {
           margin: 0;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-          background-color: #f0f0f0;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: #f4f4f9;
+          color: #333;
+          line-height: 1.6;
       }
 
+      h1, h2, h3 {
+          color: #2c3e50;
+      }
+
+      a {
+          color: #318037;
+          text-decoration: none;
+      }
+
+      a:hover {
+          color: #318037;
+      }
+
+      /* Header */
       header {
-          background-color: #3498db;
-          padding: 10px;
+          background-color: #318037;
+          padding: 20px;
           text-align: center;
           color: #fff;
-          font-size: 24px;
       }
 
+      header h1 {
+          margin: 0;
+          font-size: 2.5rem;
+      }
+
+      /* Navigation */
       nav {
-          background-color: #2980b9;
-          overflow: hidden;
+          background-color: #318037;
+          padding: 10px;
+          text-align: center;
       }
 
       nav a {
-          float: left;
-          display: block;
           color: #fff;
-          text-align: center;
-          padding: 14px 20px;
-          text-decoration: none;
+          padding: 10px 20px;
+          margin: 0 5px;
+          display: inline-block;
+          transition: background-color 0.3s ease;
       }
 
       nav a:hover {
           background-color: #2c3e50;
+          border-radius: 5px;
       }
-    </style>  
+
+      /* Main Content */
+      main {
+          padding: 20px;
+          max-width: 800px;
+          margin: 0 auto;
+      }
+
+      section {
+          background-color: #fff;
+          padding: 20px;
+          margin-bottom: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      section h2 {
+          margin-top: 0;
+          font-size: 2rem;
+          color: #318037;
+      }
+
+      section p {
+          margin: 0;
+          font-size: 1.1rem;
+          line-height: 1.8;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 600px) {
+          nav a {
+              display: block;
+              margin: 5px 0;
+          }
+
+          header h1 {
+              font-size: 2rem;
+          }
+
+          section h2 {
+              font-size: 1.5rem;
+          }
+
+          section p {
+              font-size: 1rem;
+          }
+      }
+  </style>
 </head>
 
-<main>
-    <section id="about">
-        <div class="container">
-            <h2>What i believe in.</h2>
-            <p>I have spent lots of time learning and consuming the internet, and these are my own personal opinions on it. I think that software in general should be free, and not as in money. Software should be transparent, it should be public and ready for someone to view the inner workings and verify the integrity of the software, and verify the security behind it. People should be able to understand were their data is going, how its being viewed, sorted, whatever. I understand closed source software, and it can make since. Things like games should be closed source to prevent cheating and whatnot. But generally I wish there was more clear insight as to how the software works. The internet is a big place and can be used for great things.</p>
-        </section>
+<body>
+  <header>
+      <h1>What I Believe In</h1>
+  </header>
+
+  <nav>
+      <a href="./personal.html">What I Believe In</a>
+      <a href="https://github.com/Pf0rd">GitHub</a>
+      <a href="mailto:pford@airmail.cc">Email</a>
+  </nav>
+
+  <main>
+      <section id="about">
+          <h2>What I Believe In</h2>
+          <p>
+              I have spent a lot of time learning and exploring the internet, and these are my personal opinions on it. I believe that software, in general, should be free—not just in terms of cost, but in terms of transparency. Software should be open and accessible, allowing anyone to view its inner workings, verify its integrity, and ensure its security. People should have the ability to understand where their data is going, how it’s being used, and who has access to it.
+          </p>
+          <p>
+              I understand that there are valid reasons for closed-source software, such as preventing cheating in games or protecting proprietary algorithms. However, I believe that, in most cases, transparency should be prioritized. The internet is a vast and powerful tool, and when used responsibly, it can enable incredible innovation and collaboration. I hope to see a future where software is more open, trustworthy, and aligned with the values of freedom and transparency.
+          </p>
+      </section>
+  </main>
+</body>
+
+</html>
