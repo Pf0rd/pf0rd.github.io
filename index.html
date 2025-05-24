@@ -1,179 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parker's Personal Website</title>
-  <style>
-      /* General Styles */
-      body {
-          margin: 0;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          background-color: #f4f4f9;
-          color: #333;
-          line-height: 1.6;
-      }
-
-      h1, h2, h3 {
-          color: #2c3e50;
-      }
-
-      a {
-          color: #318037;
-          text-decoration: none;
-      }
-
-      a:hover {
-          color: #318037;
-      }
-
-      /* Header */
-      header {
-          background-color: #318037;
-          padding: 20px;
-          text-align: center;
-          color: #fff;
-      }
-
-      header h1 {
-          margin: 0;
-          font-size: 2.5rem;
-      }
-
-      /* Navigation */
-      nav {
-          background-color: #318037;
-          padding: 10px;
-          text-align: center;
-      }
-
-      nav a {
-          color: #fff;
-          padding: 10px 20px;
-          margin: 0 5px;
-          display: inline-block;
-          transition: background-color 0.3s ease;
-      }
-
-      nav a:hover {
-          background-color: #2c3e50;
-          border-radius: 5px;
-      }
-
-      /* Main Content */
-      main {
-          padding: 20px;
-          max-width: 800px;
-          margin: 0 auto;
-      }
-
-      section {
-          background-color: #fff;
-          padding: 20px;
-          margin-bottom: 20px;
-          border-radius: 8px;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      }
-
-      section h2 {
-          margin-top: 0;
-          font-size: 2rem;
-          color: #318037;
-      }
-
-      .project h3 {
-          color: #2c3e50;
-          margin-bottom: 10px;
-      }
-
-      .project p {
-          margin: 0;
-      }
-
-      /* Footer */
-      footer {
-          background-color: #2c3e50;
-          color: #fff;
-          text-align: center;
-          padding: 10px;
-          margin-top: 20px;
-      }
-
-      footer p {
-          margin: 0;
-      }
-
-      /* Responsive Design */
-      @media (max-width: 600px) {
-          nav a {
-              display: block;
-              margin: 5px 0;
-          }
-
-          header h1 {
-              font-size: 2rem;
-          }
-
-          section h2 {
-              font-size: 1.5rem;
-          }
-      }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parker - Personal Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header>
-      <h1>Parker's Personal Website</h1>
-  </header>
+    <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Parker</h1>
+            <p class="caption">IT Professional & Tech Enthusiast</p>
+        </div>
+        <div class="links">
+            <a href="https://github.com/Pf0rd" class="link-card github" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
 
-  <nav>
-      <a href="./personal.html">What I Believe In</a>
-      <a href="https://github.com/Pf0rd">GitHub</a>
-      <a href="mailto:pfordyce55@gmail.com">Email</a>
-  </nav>
+            <a href="https://www.linkedin.com/in/parker-fordyce-66b8a6274/" class="link-card linkedin" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
 
-  <main>
-      <section id="about">
-          <h2>Introduction</h2>
-          <p>My name is Parker Fordyce, a Computer Science student with experience in CyberSecurity, Linux, Networking, Ethical Hacking, and a bit of Programming. I have accomplished several milestones in my career so far, and I am dedicated to growing my knowledge and skill set.</p>
-          <p>Feel free to take a peek at my achievements and projects below!</p>
-      </section>
-
-      <section id="achievements">
-          <h2>Achievements</h2>
-          <ul>
-              <li>First internship doing IT work for the first time.</li>
-              <li>Graduated High School with a focus on Computer Science, Cybersecurity, and Ethical Hacking.</li>
-              <li>Generative AI Fundamentals - Via DataBricks.
-              <li>Microsoft 365 Certification - Via TestOut.</li>
-          </ul>
-      </section>
-
-      <section id="projects">
-          <h2>Projects</h2>
-          <div class="project">
-              <h3>This Website</h3>
-              <p>The creation of this website using HTML is my first attempt at web development and understanding the basics. I also plan on learning "Hugo" to further improve not only this site but also my knowledge of web development. I used GitHub as a free hosting service as well.</p>
-          </div>
-          <div class="project">
-              <h3>Twitter Bot Accounts (In Progress)</h3>
-              <p>I'm currently working on developing a fleet of Twitter bots that use OpenAI's ChatGPT. I want to see how fast I can grow a Twitter account and what topics can generate the most engagement on the platform.</p>
-          </div>
-          <div class="project">
-              <h3>Python Password Generator</h3>
-              <p>On my GitHub, I created a simple Python-based password generator that creates a text file with 100,000 unique, secure passwords. It's nothing too spectacular, but it's my first Python project, and I still plan to improve it. More details are available on my GitHub.</p>
-          </div>
-          <div class="project">
-              <h3>i3 Configuration Files</h3>
-              <p>Also on my GitHub are my i3 configuration files, which I use on both my laptop and desktop. i3 is a tiling window manager that enhances computer productivity.</p>
-          </div>
-      </section>
-  </main>
-
-  <footer>
-      <p>&copy; 2025 Parker Fordyce - Personal Website</p>
-  </footer>
+            <a href="mailto:pfordyce55@gmail.com" class="link-card email">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </div>
 </body>
-
-</html>
+</html> 
